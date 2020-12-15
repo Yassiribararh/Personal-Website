@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src='/scripts/nav.js'></script>
+    
+    <title>Home Page</title>
+</head>
+<style>
+
+    .landingPageContainer {
+        font-family: 'Roboto', 'Ariel';
+        letter-spacing: 1px;
+         text-align: center;
+         font-size: 110%;
+        color: #EBF0F6;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #landingPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 16%;
+    height: 62vh;
+    background: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 110%;
+   }
+
+   #landingPage div.landingPageContainer h2 {
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 6px 4px 4px rgba(100,100, 100, .3), 3px 2px 2px rgba(0, 0, 0, 1);
+    margin-bottom: -20px;
+}
+</style>
+<body>
+    <!--Header-->
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="home.html" id="home" >Home</a>
+            <a href="bio.html" class="center">Bio</a>
+            <a href="contact.html" class="right">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          
+    </header>
+ 
+     <main>
+        <div id="landingPage">
+            <div class="landingPageContainer">
+                <h2 style="font-weight: bold;">Yassir Ibararh</h2>
+                <p><strong style="font-size: 120%;">Computer Science Graduate </strong><span style="font-size: 120%;">|</span> Junior Full Stack Developer</p>
+            </div>
+        </div>
+
+
+     </main>
+    <div id="footer">
+        <h2>Connect with Me</h2>
+        <div class="footer-top">
+            <div><a href="https://www.facebook.com/Yassirib/" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+            <div><a href="https://github.com/Yassiribararh" target="_blank"><i class="fab fa-github"></i></a></div>
+            <div><a href="https://www.linkedin.com/in/yassir-ibararh/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+            <div><a href="mailto:yassiribararh@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;2020 Yassir Ibararh. All Rights Reserved.</p>
+        </div>
+    </div>
+   
+
+  </body>
+  <!--Navigation script-->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</html>
+
+
