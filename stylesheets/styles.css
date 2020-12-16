@@ -254,9 +254,7 @@
   .topnav .icon {
     display: none;
   }
-  
-  
-  
+   
    
   /*Footer styles */
   #footer a {
@@ -311,7 +309,7 @@
   
 
 
-  /*Phone Styles*/
+  /*Navigation Phone Styles*/
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -565,7 +563,7 @@
 }
 
 
-
+/*Bio Page Laptop styles*/
 @media (max-width: 1000px) {
     #skills {
         justify-content: left;
@@ -589,6 +587,7 @@
     }
 }
 
+/*Bio Container Tablet styles*/
 @media (max-width: 700px) {
     #education div.education-item p.education-description {
         display: none;
@@ -608,12 +607,11 @@
     }
 }
 
+/*Bio Container Phone styles*/
 @media (max-width: 360px) {
     #bio div div.left-bio img.profile {
         width: 90%;
     }
-
-    
 
     #bio div div.right-bio {
         width: 40%;
@@ -622,10 +620,44 @@
         padding-right: 5%;
     }
 }
-
+/*Container fix*/
 @media (max-width: 617px) {
-  #bio div div.right-bio {
-    
+  #bio div div.right-bio {  
     margin-top: 300px;
   }
+}
+
+/*Home Page Gif and text*/
+.landingPageContainer {
+  font-family: 'Roboto', 'Ariel';
+  letter-spacing: 1px;
+   text-align: center;
+   font-size: 110%;
+  color: #EBF0F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#landingPage {
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+padding-top: 16%;
+height: 62vh;
+background: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-size: 110%;
+}
+
+#landingPage div.landingPageContainer h2 {
+font-size: 60px;
+text-align: center;
+letter-spacing: 5px;
+text-shadow: 6px 4px 4px rgba(100,100, 100, .3), 3px 2px 2px rgba(0, 0, 0, 1);
+margin-bottom: -20px;
 }
