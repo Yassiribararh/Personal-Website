@@ -189,7 +189,8 @@
   }
 
   .index {
-    background:#c6faf1;
+    background:url(https://wallpaperboat.com/wp-content/uploads/2019/10/best-background-for-website-02.jpg);
+    background-size: cover;
     text-align: center;
     font-family: 'Playfair Display', serif;
   }
